@@ -10,9 +10,13 @@ namespace GH.Sample.GameCard
         [SerializeField]
         private int _ManaCost;
 
+        private int fieldIndex;
         public int ManaCost { get { return _ManaCost; } }
 
-
+        public void setFieldIndex(int index)
+        {
+            fieldIndex = index;
+        }
 
         public override bool CanDropCard()
         {

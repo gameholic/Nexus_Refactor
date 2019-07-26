@@ -9,7 +9,7 @@ namespace GH.Sample.Manager
 {
     public class MouseOperation : MonoBehaviour
     {
-        private CardInstance currentCard = null;
+        private CardPhysicalInstance currentCard = null;
 
         private void Update()
         {
@@ -54,10 +54,10 @@ namespace GH.Sample.Manager
         private void HandleCardDetection()
         {
             RaycastHit[] hits = GetUIObjs();
-            CardInstance detectedCard = null;
+            CardPhysicalInstance detectedCard = null;
             for (int i = 0; i < hits.Length; i++)
             {
-                detectedCard = hits[i].transform.gameObject.GetComponentInParent<CardInstance>();
+                detectedCard = hits[i].transform.gameObject.GetComponentInParent<CardPhysicalInstance>();
                 
                 //If dectected card isn't current card
                 if (detectedCard!=null)
