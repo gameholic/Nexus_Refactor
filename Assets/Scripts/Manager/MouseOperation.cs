@@ -1,10 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
+
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 
-using GH.Sample.GameCard;
+using GH.Sample.GameCard.Property;
+
 namespace GH.Sample.Manager
 {
     public class MouseOperation : MonoBehaviour

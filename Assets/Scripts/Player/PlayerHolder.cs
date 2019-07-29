@@ -10,24 +10,27 @@ namespace GH.Sample.GamePlayerHolder
     [CreateAssetMenu(menuName ="PlayerData/PlayerHolder")]
     public class PlayerHolder : ScriptableObject
     {
-        public string playerId;
 
+        public string playerId;
         [SerializeField]
-        private CardZone _CardZone;
+        private PlayerCardZone _CardZone;
         /// I think startingCards is not needed as List, but as function.
         ///Card deck is better be dictionary with integer and string (Card name).
         ///Integer is to pick new card from deck randomly.
-        private Dictionary<int, string> _CardDeck = new Dictionary<int, string>();
+        private Dictionary<int, Card> _CardDeck = new Dictionary<int, Card>();
         private PlayerCardData _CardData = new PlayerCardData();
-        
-
+        private PlayerProfile profile = new PlayerProfile();
+        public Dictionary<int, Card> cardDeck
+        {
+            get { return _CardDeck; }
+        }
         public PlayerCardData cardData
         {
             set { _CardData = value; }
             get { return _CardData; }
         }
 
-        public CardZone cardZone
+        public PlayerCardZone cardZone
         {
 
             set { _CardZone = value; }
@@ -38,10 +41,12 @@ namespace GH.Sample.GamePlayerHolder
         public void Init()
         {
             cardData.Init(this);
+            playerId = profile.playerId;
         }
         public string PickNewCardFromDeck()
         {
             System.Random rand = new System.Random();
+            Card tmp = null;
             string newCardName = null;
             int deckSize = _CardDeck.Count;
             int cardId = rand.Next(0, deckSize);
@@ -52,7 +57,8 @@ namespace GH.Sample.GamePlayerHolder
                 return null;
             }
 
-            _CardDeck.TryGetValue(cardId, out newCardName);
+            _CardDeck.TryGetValue(cardId, out tmp);
+            newCardName = tmp.cardName;
             _CardDeck.Remove(cardId);
 
 

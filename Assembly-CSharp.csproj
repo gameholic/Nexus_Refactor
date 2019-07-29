@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{2686A585-AB1B-F106-0757-BAFDC69BD526}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -61,17 +60,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Card\Card.cs" />
-    <Compile Include="Assets\Scripts\Card\CardPhysicalInstance.cs" />
-    <Compile Include="Assets\Scripts\Card\CreatureCard.cs" />
-    <Compile Include="Assets\Scripts\Manager\PositionHandler.cs" />
-    <Compile Include="Assets\Scripts\Player\CardZone.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerCardData.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerHolder.cs" />
+    <Compile Include="Assets\Scripts\Card\CardAbilitySetting\CardAbility.cs" />
+    <Compile Include="Assets\Scripts\Card\CardDeck.cs" />
+    <Compile Include="Assets\Scripts\Card\CardElements\Element.cs" />
+    <Compile Include="Assets\Scripts\Card\CardElements\ElementImage.cs" />
+    <Compile Include="Assets\Scripts\Card\CardElements\ElementInt.cs" />
+    <Compile Include="Assets\Scripts\Card\CardElements\ElementText.cs" />
+    <Compile Include="Assets\Scripts\Card\CardProperty\CardPhysicalInstance.cs" />
+    <Compile Include="Assets\Scripts\Card\CardProperty\CardProperty.cs" />
+    <Compile Include="Assets\Scripts\Card\CardProperty\CardProperty_Int.cs" />
+    <Compile Include="Assets\Scripts\Card\CardProperty\CardProperty_Sprite.cs" />
+    <Compile Include="Assets\Scripts\Card\CardProperty\CardProperty_String.cs" />
+    <Compile Include="Assets\Scripts\Card\Cards\Card.cs" />
+    <Compile Include="Assets\Scripts\Card\Cards\CreatureCard.cs" />
+    <Compile Include="Assets\Scripts\Card\CardViz\CardViz.cs" />
+    <Compile Include="Assets\Scripts\Card\CardViz\CardVizProperties.cs" />
     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
     <Compile Include="Assets\Scripts\Manager\MouseOperation.cs" />
+    <Compile Include="Assets\Scripts\Manager\PositionHandler.cs" />
     <Compile Include="Assets\Scripts\Manager\ResourceManager.cs" />
     <Compile Include="Assets\Scripts\Manager\TestManager.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCardData.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCardZone.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerHolder.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerProfile.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Study/Unity/Processing Projects/Nexus_SampleScene/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

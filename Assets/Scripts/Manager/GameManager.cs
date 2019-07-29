@@ -4,6 +4,7 @@ using UnityEngine;
 
 using GH.Sample.GamePlayerHolder;
 using GH.Sample.GameCard;
+using GH.Sample.GameCard.Property;
 
 namespace GH.Sample.Manager
 {
@@ -87,7 +88,7 @@ namespace GH.Sample.Manager
 
             GameObject go = Instantiate(cardPrefab) as GameObject;
             CardPhysicalInstance cardphys = go.GetComponentInChildren<CardPhysicalInstance>();
-            cardphys.originCard = newCard;
+            cardphys.originalCard = newCard;
 
 
         }

@@ -18,9 +18,6 @@ namespace GH.Sample.GamePlayerHolder
         {
             cardData = p.cardData;
             cardZone = p.cardZone;
-            playerId = p.playerId;
-
-
         }
         private PositionHandler position = new PositionHandler();
         public void AddCardOnHand(Card targetCard)

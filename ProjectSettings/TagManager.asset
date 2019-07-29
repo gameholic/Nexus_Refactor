@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Card
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - 
   - 
   - 
   - 
@@ -40,4 +41,43 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BattleGround
+    uniqueID: 2905850319
+    locked: 0
+  - name: Battle Field
+    uniqueID: 2871431485
+    locked: 0
+  - name: UI
+    uniqueID: 74894907
+    locked: 0
+  - name: Card
+    uniqueID: 3594959477
+    locked: 0
+  - name: CardBack
+    uniqueID: 3734065981
+    locked: 0
+  - name: CardFront
+    uniqueID: 558520543
+    locked: 0
+  - name: CardArt
+    uniqueID: 3889018365
+    locked: 0
+  - name: CardUI
+    uniqueID: 1433662717
+    locked: 0
+  - name: CardText
+    uniqueID: 747905753
+    locked: 0
+  - name: CardOnField
+    uniqueID: 1845392543
+    locked: 0
+  - name: CardOnDefend
+    uniqueID: 3578820321
+    locked: 0
+  - name: CardOnAttack
+    uniqueID: 3131418931
+    locked: 0
+  - name: CardOnHand
+    uniqueID: 4105690041
     locked: 0
