@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GH.Sample.GameCard.Element
+namespace GH.Nexus.GameCard.CardElements
 {
     public abstract class Element : ScriptableObject
     {

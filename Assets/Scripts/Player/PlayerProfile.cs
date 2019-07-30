@@ -2,10 +2,10 @@
 using UnityEditor;
 using System.Collections.Generic;
 
-using GH.Sample.GameCard;
+using GH.Nexus.GameCard;
 
 
-namespace GH.Sample.GamePlayerHolder
+namespace GH.Nexus.GamePlayerHolder
 {
     public class PlayerProfile : PlayerHolder
     {

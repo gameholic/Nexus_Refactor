@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace GH.Sample.GameCard.Element
+namespace GH.Nexus.GameCard.CardElements
 {
 
     [CreateAssetMenu(menuName ="Elements/Text")]

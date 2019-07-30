@@ -1,39 +1,34 @@
 ﻿using UnityEngine;
 
-using GH.Sample.GameCard.Property;
+using GH.Nexus.GameCard.Ability;
 
-
-namespace GH.Sample.GameCard
+namespace GH.Nexus.GameCard
 {
     [CreateAssetMenu(menuName ="Cards/CreatureCard")]
     public class CreatureCard : Card
     {
-
         #region Serialized
 
-        [SerializeField]
-        private int _ManaCost;
-        [SerializeField]
-        private CardProperty_String _AbilityDescription;
-        [SerializeField]
-        private CardProperty_String _CardDescription;
-        [SerializeField]
-        private CardProperty_Int _Attack;
-        [SerializeField]
-        private CardProperty_Int _Defend;
-
+        public CardAbility cardAbility;
 
         #endregion
 
         #region Properties
 
-        public int ManaCost { get { return _ManaCost; } }
-        public int Attack { get { return _Attack.intValue; } }
+
+
         #endregion
+
         private int fieldIndex;
         public void setFieldIndex(int index)
         {
             fieldIndex = index;
+        }
+       
+        private void Awake()
+        {
+            //_CardType.stringValue = CardType.Creature.ToString();
+            //Debug.Log(_CardType.stringValue);
         }
 
         public override bool CanDropCard()

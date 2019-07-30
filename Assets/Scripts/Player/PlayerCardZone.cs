@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-namespace GH.Sample.GamePlayerHolder
+namespace GH.Nexus.GamePlayerHolder
 {
     [CreateAssetMenu(menuName = "PlayerData/CardZone")]
     public class PlayerCardZone : ScriptableObject

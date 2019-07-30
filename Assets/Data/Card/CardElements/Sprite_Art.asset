@@ -9,8 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Sprite_Art
-  m_EditorClassIdentifier: 
+  m_Script: {fileID: 11500000, guid: f20819be46e11af44ad3c1cbcec6e288, type: 3}
   m_Name: Sprite_Art
   m_EditorClassIdentifier: 

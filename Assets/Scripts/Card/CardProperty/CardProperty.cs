@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-namespace GH.Sample.GameCard.Property
+namespace GH.Nexus.GameCard.Property
 {
+    [System.Serializable]
     public class CardProperty
     {
-        public Element.Element element;
+        public CardElements.Element elementName;
 
+        public int intValue;
+        public string stringValue;
+        public Sprite sprite;
     }
 
 }

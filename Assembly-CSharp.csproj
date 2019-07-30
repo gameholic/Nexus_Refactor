@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{2686A585-AB1B-F106-0757-BAFDC69BD526}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -66,12 +67,9 @@
     <Compile Include="Assets\Scripts\Card\CardElements\ElementImage.cs" />
     <Compile Include="Assets\Scripts\Card\CardElements\ElementInt.cs" />
     <Compile Include="Assets\Scripts\Card\CardElements\ElementText.cs" />
-    <Compile Include="Assets\Scripts\Card\CardProperty\CardPhysicalInstance.cs" />
     <Compile Include="Assets\Scripts\Card\CardProperty\CardProperty.cs" />
-    <Compile Include="Assets\Scripts\Card\CardProperty\CardProperty_Int.cs" />
-    <Compile Include="Assets\Scripts\Card\CardProperty\CardProperty_Sprite.cs" />
-    <Compile Include="Assets\Scripts\Card\CardProperty\CardProperty_String.cs" />
     <Compile Include="Assets\Scripts\Card\Cards\Card.cs" />
+    <Compile Include="Assets\Scripts\Card\Cards\CardPhysicalInstance.cs" />
     <Compile Include="Assets\Scripts\Card\Cards\CreatureCard.cs" />
     <Compile Include="Assets\Scripts\Card\CardViz\CardViz.cs" />
     <Compile Include="Assets\Scripts\Card\CardViz\CardVizProperties.cs" />

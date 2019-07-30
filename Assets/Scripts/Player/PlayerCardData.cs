@@ -2,10 +2,10 @@
 
 using UnityEngine;
 
-using GH.Sample.GameCard;
-using GH.Sample.Manager;
+using GH.Nexus.GameCard;
+using GH.Nexus.Manager;
 
-namespace GH.Sample.GamePlayerHolder
+namespace GH.Nexus.GamePlayerHolder
 {
     public class PlayerCardData:PlayerHolder
     {
@@ -33,6 +33,7 @@ namespace GH.Sample.GamePlayerHolder
             position.MoveCard(targetCard.instance.transform, cardZone.fieldZone(fieldIndex).transform);
             //SetParent to Fieldzone and move card
         }
+
         /// <summary>
         /// Move card to attack position
         /// </summary>
@@ -41,7 +42,6 @@ namespace GH.Sample.GamePlayerHolder
         {
             _AttackingCard.Add(targetCard);
             _CardOnField.Remove(targetCard);
-
         }
     }
 

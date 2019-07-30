@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-using GH.Sample.GameCard;
-namespace GH.Sample.Manager
+using GH.Nexus.GameCard;
+namespace GH.Nexus.Manager
 {
     public class PositionHandler : ScriptableObject
     {

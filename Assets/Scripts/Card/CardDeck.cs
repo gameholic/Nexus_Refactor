@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-namespace GH.Sample.GameCard
+namespace GH.Nexus.GameCard
 {
     public class CardDeck
     {

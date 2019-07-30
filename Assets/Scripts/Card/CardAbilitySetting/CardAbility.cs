@@ -2,15 +2,15 @@
 using System.Collections;
 
 
-namespace GH.Sample.GameCard.Ability
+namespace GH.Nexus.GameCard.Ability
 {
-    public class CardAbility : MonoBehaviour
+    [System.Serializable]
+    public class CardAbility : ScriptableObject
     {
-        [SerializeField]
         private bool chaaarge;
 
         //When legend card enters, ability name changes to grandEntrance
-        [SerializeField]
+       
         private bool entrance;
 
     }

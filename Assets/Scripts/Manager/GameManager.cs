@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using GH.Sample.GamePlayerHolder;
-using GH.Sample.GameCard;
-using GH.Sample.GameCard.Property;
+using GH.Nexus.GamePlayerHolder;
+using GH.Nexus.GameCard;
+using GH.Nexus.GameCard.Property;
 
-namespace GH.Sample.Manager
+namespace GH.Nexus.Manager
 {
     public enum GameOperation
     {
@@ -22,6 +22,8 @@ namespace GH.Sample.Manager
         public GameObject cardPrefab;
         public PositionHandler positionHandler;
         #endregion
+
+
         #region Private Variables
 
         private Dictionary<string, PlayerHolder> allPlayers = new Dictionary<string, PlayerHolder>();
@@ -29,6 +31,7 @@ namespace GH.Sample.Manager
         private static GameManager _Singleton;
 
         #endregion
+
         #endregion
 
         #region Constructors

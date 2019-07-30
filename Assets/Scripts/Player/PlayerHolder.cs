@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 
 using UnityEngine;
-using GH.Sample.GameCard;
+using GH.Nexus.GameCard;
 
-namespace GH.Sample.GamePlayerHolder
+namespace GH.Nexus.GamePlayerHolder
 {
     [CreateAssetMenu(menuName ="PlayerData/PlayerHolder")]
     public class PlayerHolder : ScriptableObject
@@ -58,7 +58,7 @@ namespace GH.Sample.GamePlayerHolder
             }
 
             _CardDeck.TryGetValue(cardId, out tmp);
-            newCardName = tmp.cardName;
+            //newCardName = tmp.cardName.stringValue;
             _CardDeck.Remove(cardId);
 
 

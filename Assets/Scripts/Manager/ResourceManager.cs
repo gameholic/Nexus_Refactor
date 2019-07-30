@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using GH.Sample.GameCard;
+using GH.Nexus.GameCard;
 
-namespace GH.Sample.Manager
+namespace GH.Nexus.Manager
 {
     [CreateAssetMenu]
     public class ResourceManager : ScriptableObject

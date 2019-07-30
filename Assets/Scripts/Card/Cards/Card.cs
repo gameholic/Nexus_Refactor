@@ -1,36 +1,55 @@
 ﻿using UnityEngine;
 
 
-using GH.Sample.GameCard.Property;
+using GH.Nexus.GameCard.Property;
+using GH.Nexus.GameCard.Viz;
 
-
-namespace GH.Sample.GameCard
+namespace GH.Nexus.GameCard
 {
+
+    public enum CardType
+    {
+        Creature,Spell
+    }
     [CreateAssetMenu(menuName ="Cards/Card")]
     public abstract class Card : ScriptableObject
     {
+        #region Variables
+
         public RuntimeValues runtime;
+
+
         private CardPhysicalInstance _Instance;
-            
-        [SerializeField]
-        private CardProperty_String _CardName;
-        
-        [SerializeField]
-        private CardProperty_Sprite _Art;
+        private CardViz _Viz;
 
-
-        #region Constructors/GetSet
-        public string cardName
-        {
-            get { return _CardName.stringValue; }
-        }
+        [SerializeField]
+        private CardProperty[] _Properties;
+        [SerializeField]
+        private CardType _CardType;
 
         #endregion
+        #region Constructors/GetSet
+
+        public CardProperty[] property
+        {
+            get { return _Properties; }        
+        }
+        public CardViz viz
+        {
+            set { _Viz = value; }
+            get { return _Viz; }
+        }
+        public CardType cardType
+        {
+            get { return _CardType; }
+        }
         public CardPhysicalInstance instance
         {
             set { _Instance = value; }
             get { return _Instance; }
         }
+
+        #endregion
 
         public virtual void InitCard()
         {

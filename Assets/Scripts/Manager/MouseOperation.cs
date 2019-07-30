@@ -1,11 +1,10 @@
-﻿
-
-using UnityEngine;
+﻿using UnityEngine;
 
 
-using GH.Sample.GameCard.Property;
+using GH.Nexus.GameCard;
 
-namespace GH.Sample.Manager
+
+namespace GH.Nexus.Manager
 {
     public class MouseOperation : MonoBehaviour
     {

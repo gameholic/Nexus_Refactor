@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
-using GH.Sample.GameCard;
+using GH.Nexus.GameCard;
 
 
-namespace GH.Sample.Manager
+namespace GH.Nexus.Manager
 {
     public class TestManager : MonoBehaviour
     {
