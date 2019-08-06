@@ -13,25 +13,10 @@ MonoBehaviour:
   m_Name: Test
   m_EditorClassIdentifier: 
   _Properties:
-  - stringValue: Ashe
-    intValue: 0
-    sprite: {fileID: 0}
-    elementName: {fileID: 0}
-  - stringValue: 
-    intValue: 0
-    sprite: {fileID: 0}
-    elementName: {fileID: 0}
-  - stringValue: 
-    intValue: 0
-    sprite: {fileID: 0}
-    elementName: {fileID: 0}
-  - stringValue: 
-    intValue: 0
-    sprite: {fileID: 0}
-    elementName: {fileID: 0}
-  - stringValue: 
-    intValue: 0
-    sprite: {fileID: 0}
-    elementName: {fileID: 0}
+  - elementType: 0
+  - elementType: 1
+  - elementType: 0
+  - elementType: 0
+  - elementType: 0
   _CardType: 0
   cardAbility: {fileID: 0}

@@ -29,39 +29,39 @@ namespace GH.Nexus.GameCard.Viz
             get { return name; }
         }
         #endregion
-        public void LoadCard(Card c)
-        {
-            if (c == null)
-                return;
-            originCard = c;
-            c.viz = this;
-            cardType.text.text = c.cardType.ToString();
-            for (int i = 0; i < c.property.Length; i++)
-            {
-                CardProperty cp = c.property[i];
-                CardVizProperties p = GetProperty(cp.elementName);
+        //public void LoadCard(Card c)
+        //{
+        //    if (c == null)
+        //        return;
+        //    originCard = c;
+        //    c.viz = this;
+        //    cardType.text.text = c.cardType.ToString();
+        //    for (int i = 0; i < c.property.Length; i++)
+        //    {
+        //        CardProperty cp = c.property[i];
+        //        CardVizProperties p = GetProperty(cp.elementName);
 
-                if (p == null)
-                    continue;
-                if (cp.elementName is ElementInt)
-                {
-                    p.text.text = cp.intValue.ToString();
-                    p.text.gameObject.SetActive(true);
-                }
-                else if (cp.elementName is ElementText)
-                {
-                    p.text.text = cp.stringValue;
-                    p.text.gameObject.SetActive(true);
-                }
-                else if (cp.elementName is ElementImage)
-                {
-                    p.renderer.sprite = cp.sprite;
-                    p.renderer.gameObject.SetActive(true);
-                }
-            }
+        //        if (p == null)
+        //            continue;
+        //        if (cp.elementName is ElementInt)
+        //        {
+        //            p.text.text = cp.intValue.ToString();
+        //            p.text.gameObject.SetActive(true);
+        //        }
+        //        else if (cp.elementName is ElementText)
+        //        {
+        //            p.text.text = cp.stringValue;
+        //            p.text.gameObject.SetActive(true);
+        //        }
+        //        else if (cp.elementName is ElementImage)
+        //        {
+        //            p.renderer.sprite = cp.sprite;
+        //            p.renderer.gameObject.SetActive(true);
+        //        }
+        //    }
 
 
-        }
+        //}
 
         public void DisableCard()
         {
