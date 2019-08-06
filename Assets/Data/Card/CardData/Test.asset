@@ -12,31 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf88b4285793e9349b3a362f9336d98b, type: 3}
   m_Name: Test
   m_EditorClassIdentifier: 
-  test:
-  - element: {fileID: 0}
-  - element: {fileID: 0}
-  - element: {fileID: 0}
-  - element: {fileID: 0}
-  - element: {fileID: 0}
-  _CardName:
-    element: {fileID: 11400000, guid: d47bc3231faafe14a9e258f1bfdac8c1, type: 2}
-    stringValue: 
-  _Art:
-    element: {fileID: 0}
-    spirte: {fileID: 0}
-  _ManaCost: 0
-  _AbilityDescription:
-    element: {fileID: 0}
-    stringValue: 
-  _CardDescription:
-    element: {fileID: 0}
-    stringValue: 
-  _Attack:
-    element: {fileID: 0}
+  _Properties:
+  - stringValue: Ashe
     intValue: 0
-  _Defend:
-    element: {fileID: 0}
+    sprite: {fileID: 0}
+    elementName: {fileID: 0}
+  - stringValue: 
     intValue: 0
-  _CardType:
-    element: {fileID: 0}
-    stringValue: 
+    sprite: {fileID: 0}
+    elementName: {fileID: 0}
+  - stringValue: 
+    intValue: 0
+    sprite: {fileID: 0}
+    elementName: {fileID: 0}
+  - stringValue: 
+    intValue: 0
+    sprite: {fileID: 0}
+    elementName: {fileID: 0}
+  - stringValue: 
+    intValue: 0
+    sprite: {fileID: 0}
+    elementName: {fileID: 0}
+  _CardType: 0
+  cardAbility: {fileID: 0}

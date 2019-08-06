@@ -41,7 +41,7 @@ namespace GH.Nexus.GamePlayerHolder
         public void Init()
         {
             cardData.Init(this);
-            playerId = profile.playerId;
+
         }
         public string PickNewCardFromDeck()
         {

@@ -5,12 +5,13 @@ namespace GH.Nexus.GameCard.Property
 {
     [System.Serializable]
     public class CardProperty
-    {
+    {        
+        public string stringValue;
+        public int intValue;
+        public Sprite sprite;
         public CardElements.Element elementName;
 
-        public int intValue;
-        public string stringValue;
-        public Sprite sprite;
+
     }
 
 }

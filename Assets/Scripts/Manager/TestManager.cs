@@ -14,8 +14,5 @@ namespace GH.Nexus.Manager
             targetCard.InitCard();
 
         }
-
-
     }
-
 }

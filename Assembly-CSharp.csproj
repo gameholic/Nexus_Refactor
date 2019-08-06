@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{2686A585-AB1B-F106-0757-BAFDC69BD526}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -81,7 +80,17 @@
     <Compile Include="Assets\Scripts\Player\PlayerCardData.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCardZone.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHolder.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerProfile.cs" />
+    <Compile Include="Assets\Scripts\PlayerProfile\ConvertPlayerProfileToAsset.cs" />
+    <Compile Include="Assets\Scripts\PlayerProfile\InstantiatePlayerProfile.cs" />
+    <Compile Include="Assets\Scripts\PlayerProfile\PlayerProfile.cs" />
+    <Compile Include="Assets\Scripts\PlayerProfile\PlayerProfileEditor.cs" />
+    <Compile Include="Assets\Scripts\PlayerProfile\ProfileData\ProfileData_Deck.cs" />
+    <Compile Include="Assets\Scripts\PlayerProfile\TestPlayerProfile.cs" />
+    <Compile Include="Assets\Scripts\testCards\CardDataTest.cs" />
+    <Compile Include="Assets\Scripts\testCards\CardTest.cs" />
+    <Compile Include="Assets\Scripts\testCards\CardVizTest.cs" />
+    <Compile Include="Assets\Scripts\testCards\DataBridge.cs" />
+    <Compile Include="Assets\Scripts\testCards\testProperty.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Study/Unity/Processing Projects/Nexus_SampleScene/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
