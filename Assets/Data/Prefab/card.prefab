@@ -654,7 +654,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589200407163188}
-  m_Text: 
+  m_Text: adsfasdfadsf
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1015,10 +1015,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2285028165252863233}
-  - component: {fileID: 114853251582968266}
   - component: {fileID: 3473977918341262483}
   - component: {fileID: 4744352514864121406}
   - component: {fileID: 4302408073900396733}
+  - component: {fileID: 3461132569055091301}
   m_Layer: 0
   m_Name: card
   m_TagString: Card
@@ -1042,45 +1042,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114853251582968266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791560745095846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56323a40f5252924b9150cbf900b1a5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  originCard: {fileID: 0}
-  properties:
-  - text: {fileID: 102073407120123148}
-    renderer: {fileID: 0}
-    element: {fileID: 11400000, guid: d47bc3231faafe14a9e258f1bfdac8c1, type: 2}
-  - text: {fileID: 102844141485720846}
-    renderer: {fileID: 0}
-    element: {fileID: 11400000, guid: 3607275f851b558439cbba64b13bc46c, type: 2}
-  - text: {fileID: 102256164771601844}
-    renderer: {fileID: 0}
-    element: {fileID: 11400000, guid: e79cb92c94e6a9449beb6e31632e9ce4, type: 2}
-  - text: {fileID: 102675189214248958}
-    renderer: {fileID: 0}
-    element: {fileID: 11400000, guid: 828af57fdf3049248baa58393dbb9067, type: 2}
-  - text: {fileID: 102737560440788504}
-    renderer: {fileID: 0}
-    element: {fileID: 11400000, guid: 754dcaed42db1044ca68e5e724d194bd, type: 2}
-  - text: {fileID: 102675189214248958}
-    renderer: {fileID: 0}
-    element: {fileID: 11400000, guid: 828af57fdf3049248baa58393dbb9067, type: 2}
-  - text: {fileID: 0}
-    renderer: {fileID: 212357242044682726}
-    element: {fileID: 11400000, guid: eba14fd98e0a8f8478729180edb19cef, type: 2}
-  cardType:
-    text: {fileID: 102964036181191226}
-    renderer: {fileID: 0}
-    element: {fileID: 11400000, guid: cb1598cf67729bf4c958b4f8d9cf2bbe, type: 2}
 --- !u!114 &3473977918341262483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1117,6 +1078,41 @@ SortingGroup:
   m_SortingLayerID: -700007819
   m_SortingLayer: 4
   m_SortingOrder: 0
+--- !u!114 &3461132569055091301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791560745095846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af13d818c5a63674daf50c0c8c51712d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originCard: {fileID: 0}
+  properties:
+  - text: {fileID: 102073407120123148}
+    renderer: {fileID: 0}
+    element: {fileID: 11400000, guid: d47bc3231faafe14a9e258f1bfdac8c1, type: 2}
+  - text: {fileID: 102844141485720846}
+    renderer: {fileID: 0}
+    element: {fileID: 11400000, guid: 3607275f851b558439cbba64b13bc46c, type: 2}
+  - text: {fileID: 102675189214248958}
+    renderer: {fileID: 0}
+    element: {fileID: 11400000, guid: 828af57fdf3049248baa58393dbb9067, type: 2}
+  - text: {fileID: 102737560440788504}
+    renderer: {fileID: 0}
+    element: {fileID: 11400000, guid: 754dcaed42db1044ca68e5e724d194bd, type: 2}
+  - text: {fileID: 102964036181191226}
+    renderer: {fileID: 0}
+    element: {fileID: 11400000, guid: cb1598cf67729bf4c958b4f8d9cf2bbe, type: 2}
+  - text: {fileID: 102256164771601844}
+    renderer: {fileID: 0}
+    element: {fileID: 11400000, guid: e79cb92c94e6a9449beb6e31632e9ce4, type: 2}
+  - text: {fileID: 0}
+    renderer: {fileID: 212357242044682726}
+    element: {fileID: 11400000, guid: eba14fd98e0a8f8478729180edb19cef, type: 2}
 --- !u!1 &1795133718465786
 GameObject:
   m_ObjectHideFlags: 0

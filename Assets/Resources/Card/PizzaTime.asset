@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb44d354f37f7034f9504f71b27c9d79, type: 3}
+  m_Name: PizzaTime
+  m_EditorClassIdentifier: 
+  data:
+  - name: PizzaTime
+    description: ThisIsTest
+    ability: NoAbility
+    region: Demacia
+    _class: Warrior
+    mana: 10
+    attack: 21
+    defend: 21
+    cardType: 0
+    art: {fileID: 21300000, guid: 3b3145bc897edec42bd6a9d54888fae3, type: 3}
+  viz: {fileID: 0}

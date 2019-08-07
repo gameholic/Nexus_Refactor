@@ -20,8 +20,6 @@ namespace GH.Nexus.Test
 
         public CardVizProperties[] properties;
 
-        [SerializeField]
-        private CardVizProperties cardType;
 
         #endregion
 
@@ -38,7 +36,6 @@ namespace GH.Nexus.Test
                 return;
             originCard = c;
             c.viz = this;
-            cardType.text.text = c.data[0].cardType.ToString();
             CardDataTest data = c.data[0];
             for (int i = 0; i < properties.Length; i++)
             {
@@ -53,7 +50,9 @@ namespace GH.Nexus.Test
 
         public void ApplyText(CardVizProperties p, CardDataTest data)
         {
-            ElementType e = p.element.type;
+            ElementType e = new ElementType();
+
+            e = p.element.type;
             switch (e)
             {
                 case ElementType.Art:

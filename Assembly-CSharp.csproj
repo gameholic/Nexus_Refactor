@@ -83,7 +83,6 @@
     <Compile Include="Assets\Scripts\PlayerProfile\ConvertPlayerProfileToAsset.cs" />
     <Compile Include="Assets\Scripts\PlayerProfile\InstantiatePlayerProfile.cs" />
     <Compile Include="Assets\Scripts\PlayerProfile\PlayerProfile.cs" />
-    <Compile Include="Assets\Scripts\PlayerProfile\PlayerProfileEditor.cs" />
     <Compile Include="Assets\Scripts\PlayerProfile\ProfileData\ProfileData_Deck.cs" />
     <Compile Include="Assets\Scripts\PlayerProfile\TestPlayerProfile.cs" />
     <Compile Include="Assets\Scripts\testCards\CardDatas\CardDataTest.cs" />

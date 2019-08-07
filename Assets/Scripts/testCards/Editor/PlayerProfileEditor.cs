@@ -11,7 +11,7 @@ public class PlayerProfileEditor : EditorWindow
 
     private string playerProfileFilePath = "/StreamingAssets/playerProfile.json";
 
-    [MenuItem("Window/Player Profile Editor")]
+    [MenuItem("Editor/Player Profile Editor")]
     static void Init()
     {
         //create new 'GameDataEditor' window using 'EditorWindow' 
@@ -47,6 +47,9 @@ public class PlayerProfileEditor : EditorWindow
         {
             ConvertProfile();
         }
+
+
+        EditorGUILayout.EndScrollView();
     }
     private void ConvertProfile()
     {
