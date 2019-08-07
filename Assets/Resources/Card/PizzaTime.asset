@@ -14,13 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - name: PizzaTime
-    description: ThisIsTest
-    ability: NoAbility
-    region: Demacia
-    _class: Warrior
-    mana: 10
-    attack: 21
-    defend: 21
+    description: adf
+    ability: asdfasdf
+    region: j
+    _class: j
+    mana: 1
+    attack: 1
+    defend: 1
     cardType: 0
-    art: {fileID: 21300000, guid: 3b3145bc897edec42bd6a9d54888fae3, type: 3}
+    art: {fileID: 0}
   viz: {fileID: 0}
+  test: tetestsetst

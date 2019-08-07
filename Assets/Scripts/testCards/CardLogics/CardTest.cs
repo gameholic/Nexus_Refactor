@@ -11,7 +11,7 @@ namespace GH.Nexus.Test
     {
         public CardDataTest[] data;
         public CardVizTest viz;
-
+        public string test;
 
     }
 
