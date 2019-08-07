@@ -15,6 +15,15 @@ namespace GH.Nexus.Test
 
     }
 
+    /*
+    [System.Serializable]
+    public class CardMirror
+    {
+
+        [SerializeField]
+        public CardTest card;
+    }
+    */
 
 
 

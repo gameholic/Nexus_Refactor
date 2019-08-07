@@ -887,7 +887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3765679b37343b4da00802f2b76751f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCard: {fileID: 11400000, guid: 1f62f2637c6ead24fa5ab045bbadc15f, type: 2}
+  targetCard: {fileID: 11400000, guid: 816a48b3da328c443ab5731323f800de, type: 2}
   _CardPrefab: {fileID: 1791560745095846, guid: af14978f813b6e94aa6faaf997028c2c,
     type: 3}
 --- !u!4 &1586626303
